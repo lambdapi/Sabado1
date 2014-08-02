@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.solvam.prueba5"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Prueba5</name>
+
+    <description>
+      prueba de app 
+    </description>
+
+    <author href="https://build.phonegap.com" email="support@phonegap.com">
+       Lorenzo Sánchez
+    </author>
+
+	<preference name="phonegap-version"           value="3.5.0" />          <!-- all: current version of PhoneGap -->
+    <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
+    <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
+    <preference name="orientation" value="portrait" />
+	
+	<icon src="icon.png" />
+	    <!-- iPhone / iPod Touch  -->
+<icon src="icon-60.png" gap:platform="ios" width="60" height="60" />
+<icon src="icon-60@2x.png" gap:platform="ios" width="120" height="120" />
+
+<!-- iPad -->
+<icon src="icon-76.png" gap:platform="ios" width="76" height="76" />
+<icon src="icon-76@2x.png" gap:platform="ios" width="152" height="152" />
+
+<!-- Settings Icon -->
+<icon src="icon-small.png" gap:platform="ios" width="29" height="29" />
+<icon src="icon-small@2x.png" gap:platform="ios" width="58" height="58" />
+
+<!-- Spotlight Icon -->
+<icon src="icon-40.png" gap:platform="ios" width="40" height="40" />
+<icon src="icon-40@2x.png" gap:platform="ios" width="80" height="80" />
+
+ 	<!-- iPhone / iPod Touch -->
+<icon src="icon.png" gap:platform="ios" width="57" height="57" />
+<icon src="icon@2x.png" gap:platform="ios" width="114" height="114" />
+
+<!-- iPad -->
+<icon src="icon-72.png" gap:platform="ios" width="72" height="72" />
+<icon src="icon-72@2x.png" gap:platform="ios" width="144" height="144" />
+
+<!-- iPhone Spotlight and Settings Icon -->
+<icon src="icon-small.png" gap:platform="ios" width="29" height="29" />
+<icon src="icon-small@2x.png" gap:platform="ios" width="58" height="58" />
+
+<!-- iPad Spotlight and Settings Icon -->
+<icon src="icon-50.png" gap:platform="ios" width="50" height="50" />
+<icon src="icon-50@2x.png" gap:platform="ios" width="100" height="100" />
+
+<icon src="ldpi.png" gap:platform="android" gap:density="ldpi" />
+<icon src="mdpi.png" gap:platform="android" gap:density="mdpi" />
+<icon src="hdpi.png" gap:platform="android" gap:density="hdpi" />
+<icon src="xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+
+	<preference name="permissions" value="none"/>
+
+    <!-- to enable individual permissions use the following examples -->
+    <feature name="http://api.phonegap.com/1.0/battery"/>
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+    <feature name="http://api.phonegap.com/1.0/contacts"/>
+    <feature name="http://api.phonegap.com/1.0/file"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/media"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/notification"/>
+	<feature name="http://api.phonegap.com/1.0/device"/>
+	
+	<gap:plugin name="org.apache.cordova.device"   />
+	
+	 <access origin="*" />
+	
+</widget>
+
+
+	
